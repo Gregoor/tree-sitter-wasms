@@ -22,7 +22,7 @@ devDependencies:
     version: 0.20.3
   tree-sitter-c:
     specifier: ^0.20.6
-    version: 0.20.6
+    version: 0.20.7
   tree-sitter-c-sharp:
     specifier: ^0.20.0
     version: 0.20.0
@@ -637,8 +637,8 @@ packages:
       nan: 2.18.0
     dev: true
 
-  /tree-sitter-c@0.20.6:
-    resolution: {integrity: sha512-YosSBUOJ21j4mb7SmDmKI3QYQb7ANj55u2RTlj0XHQ6gFoLkpHzJDGvVK4zlbvqyPXA0u62LdhTwbLvYzHWcdw==}
+  /tree-sitter-c@0.20.7:
+    resolution: {integrity: sha512-T8m3hT4EAHfwFl0uSuQbYM2zImjs5njp+wIfwB8a0g0BMAlFkzdPAUomuNrKBvvMRYkhe4YMpK3r4tV+UPm/aw==}
     requiresBuild: true
     dependencies:
       nan: 2.18.0
