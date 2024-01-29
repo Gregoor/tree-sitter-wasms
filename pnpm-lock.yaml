@@ -69,8 +69,8 @@ devDependencies:
     specifier: ^0.20.4
     version: 0.20.4
   tree-sitter-php:
-    specifier: ^0.20.0
-    version: 0.20.0
+    specifier: ^0.21.1
+    version: 0.21.1
   tree-sitter-python:
     specifier: ^0.20.4
     version: 0.20.4
@@ -742,8 +742,8 @@ packages:
       nan: 2.18.0
     dev: true
 
-  /tree-sitter-php@0.20.0:
-    resolution: {integrity: sha512-di7d1jjAu05Hj9AufXlUQzTHGaThemU2HV9MjE17HnbW8TfuwNzH0Q0BQuJLrIJipjK9bhqhNe1fS9wtkyUkYg==}
+  /tree-sitter-php@0.21.1:
+    resolution: {integrity: sha512-VosCUk4n6bKiBhpHA7KrdwfiS30RIdaFsiMlNo98VeL1xRQ6SKsvjXRrCwVHM2Pc5S88FPTiTHMXb8vLno0Cyg==}
     requiresBuild: true
     dependencies:
       nan: 2.18.0
