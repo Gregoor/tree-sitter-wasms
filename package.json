@@ -30,7 +30,7 @@
     "tree-sitter-json": "^0.20.1",
     "tree-sitter-lua": "^2.1.3",
     "tree-sitter-ocaml": "^0.20.4",
-    "tree-sitter-php": "^0.20.0",
+    "tree-sitter-php": "^0.22.0",
     "tree-sitter-python": "^0.20.4",
     "tree-sitter-ql": "^1.0.0",
     "tree-sitter-rescript": "github:nkrkv/tree-sitter-rescript#6376fa028f31aa4e26ca2c8f007e322cd2a5eb4a",
