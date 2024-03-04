@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^0.20.0
     version: 0.20.0
   tree-sitter-cli:
-    specifier: ^0.20.8
-    version: 0.20.8
+    specifier: ^0.21.0
+    version: 0.21.0
   tree-sitter-cpp:
     specifier: ^0.20.4
     version: 0.20.5
@@ -1229,8 +1229,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /tree-sitter-cli@0.20.8:
-    resolution: {integrity: sha512-XjTcS3wdTy/2cc/ptMLc/WRyOLECRYcMTrSWyhZnj1oGSOWbHLTklgsgRICU3cPfb0vy+oZCC33M43u6R1HSCA==}
+  /tree-sitter-cli@0.21.0:
+    resolution: {integrity: sha512-wA7wT5724fNQW82XDH6zT6ZcYonjrAKLCHHuhLsPcAKULrhp3rNuMvlgBdB5FUBvmjHNhtTZF/qpHenMoRJPBw==}
     hasBin: true
     requiresBuild: true
     dev: true
