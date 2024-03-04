@@ -100,7 +100,7 @@ devDependencies:
     version: 0.19.0
   tree-sitter-swift:
     specifier: ^0.4.0
-    version: 0.4.0
+    version: 0.4.1
   tree-sitter-systemrdl:
     specifier: ^0.7.0
     version: 0.7.0
@@ -1387,8 +1387,8 @@ packages:
       nan: 2.18.0
     dev: true
 
-  /tree-sitter-swift@0.4.0:
-    resolution: {integrity: sha512-Wbul0z6fLSnl+uPhgK+yVK5IbdvugrVnIaRyS2xQ7zaFdExRw1WRvxrXyvurNVqk1VT1AGNFK7A/h1HPwSnIXQ==}
+  /tree-sitter-swift@0.4.1:
+    resolution: {integrity: sha512-AK1yOu8kEpTs7BGv0WKFdJI8jKXP1BJ4i/i1R8R1BiYgQf5hl1dXbTCwUquk8KfqrCzoOETDM6vvaeevVa5QqQ==}
     requiresBuild: true
     dependencies:
       nan: 2.18.0
