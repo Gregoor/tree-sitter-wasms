@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^3.1.1
     version: 3.1.1
   '@tlaplus/tree-sitter-tlaplus':
-    specifier: ^1.0.8
-    version: 1.0.8
+    specifier: ^1.2.3
+    version: 1.2.3(tree-sitter-cli@0.20.8)
   '@types/find-root':
     specifier: ^1.1.4
     version: 1.1.4
@@ -198,11 +198,19 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /@tlaplus/tree-sitter-tlaplus@1.0.8:
-    resolution: {integrity: sha512-KopNiZbN0+IN1Cokx96W2Ne8CR4DwuvNX55FhxYrQ2h/Wh4Ng9sFkXE94on0dvhZFiLbRD5gMkR+tnMC72MR1g==}
+  /@tlaplus/tree-sitter-tlaplus@1.2.3(tree-sitter-cli@0.20.8):
+    resolution: {integrity: sha512-l/J+yTBbNGGnVvCX0zxR3GQcF7Tm9i+MPnOWuWx5eKk8L5N1Gf8nFG2py1t/wJTiaS1U807tZWzzxSordrYr/g==}
     requiresBuild: true
+    peerDependencies:
+      tree-sitter-cli: 0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
     dependencies:
-      nan: 2.18.0
+      node-addon-api: 7.1.0
+      node-gyp-build: 4.8.0
+      tree-sitter-cli: 0.20.8
     dev: true
 
   /@tsconfig/node10@1.0.9:

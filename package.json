@@ -43,7 +43,7 @@
     "tree-sitter-solidity": "github:JoranHonig/tree-sitter-solidity#b239a95f94cfcc6e7b3e961bc73a28d55e214f02",
     "tree-sitter-swift": "^0.4.0",
     "tree-sitter-systemrdl": "^0.7.0",
-    "@tlaplus/tree-sitter-tlaplus": "^1.0.8",
+    "@tlaplus/tree-sitter-tlaplus": "^1.2.3",
     "tree-sitter-toml": "^0.5.1",
     "tree-sitter-typescript": "^0.20.5",
     "tree-sitter-vue": "^0.2.1",
