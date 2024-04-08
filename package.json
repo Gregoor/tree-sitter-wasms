@@ -38,7 +38,7 @@
     "tree-sitter-ql": "^1.0.0",
     "tree-sitter-rescript": "github:nkrkv/tree-sitter-rescript#6376fa028f31aa4e26ca2c8f007e322cd2a5eb4a",
     "tree-sitter-ruby": "^0.20.1",
-    "tree-sitter-rust": "^0.20.4",
+    "tree-sitter-rust": "^0.21.0",
     "tree-sitter-scala": "^0.19.0",
     "tree-sitter-solidity": "github:JoranHonig/tree-sitter-solidity#b239a95f94cfcc6e7b3e961bc73a28d55e214f02",
     "tree-sitter-swift": "^0.4.0",
