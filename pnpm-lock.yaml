@@ -60,8 +60,8 @@ devDependencies:
     specifier: ^0.20.0
     version: 0.20.1
   tree-sitter-java:
-    specifier: ^0.20.2
-    version: 0.20.2
+    specifier: ^0.21.0
+    version: 0.21.0(tree-sitter@0.21.0)
   tree-sitter-javascript:
     specifier: ^0.20.3
     version: 0.20.3
@@ -851,6 +851,11 @@ packages:
     engines: {node: ^16 || ^18 || >= 20}
     dev: true
 
+  /node-addon-api@8.0.0:
+    resolution: {integrity: sha512-ipO7rsHEBqa9STO5C5T10fj732ml+5kLN1cAG8/jdHd56ldQeGj3Q7+scUS+VHK/qy1zLEwC4wMK5+yM0btPvw==}
+    engines: {node: ^18 || ^20 || >= 21}
+    dev: true
+
   /node-gyp-build@4.8.0:
     resolution: {integrity: sha512-u6fs2AEUljNho3EYTJNBfImO5QTo/J/1Etd+NVdCj7qWKUSN/bSLkZwhDv7I+w/MSC6qJ4cknepkAYykDdK8og==}
     hasBin: true
@@ -1323,11 +1328,19 @@ packages:
       nan: 2.18.0
     dev: true
 
-  /tree-sitter-java@0.20.2:
-    resolution: {integrity: sha512-jc6RCnM+JE2ns1AkpErOp2Dp1jOADPbljsrWup0Vj2qTmG8KGYMSTD7HcrVRyZUC6pRLFySPMOh8x7Dn12aynw==}
+  /tree-sitter-java@0.21.0(tree-sitter@0.21.0):
+    resolution: {integrity: sha512-CKJiTo1uc3SUsgEcaZgufGx8my6dzihy8JR/JsJH40Tj3uSe2/eFLk+0q+fpbosGAyY4YiXJtEoFB2O4bS2yOw==}
     requiresBuild: true
+    peerDependencies:
+      tree-sitter: ^0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
     dependencies:
-      nan: 2.18.0
+      node-addon-api: 8.0.0
+      node-gyp-build: 4.8.0
+      tree-sitter: 0.21.0
     dev: true
 
   /tree-sitter-javascript@0.20.3:
