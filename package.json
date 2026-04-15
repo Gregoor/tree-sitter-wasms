@@ -18,7 +18,7 @@
     "find-root": "^1.1.0",
     "tree-sitter-bash": "^0.20.5",
     "tree-sitter-c": "^0.20.7",
-    "tree-sitter-c-sharp": "^0.20.0",
+    "tree-sitter-c-sharp": "^0.21.3",
     "tree-sitter-cli": "^0.20.8",
     "tree-sitter-cpp": "^0.20.4",
     "tree-sitter-css": "^0.20.0",
