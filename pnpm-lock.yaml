@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^0.20.7
     version: 0.20.8
   tree-sitter-c-sharp:
-    specifier: ^0.20.0
-    version: 0.20.0
+    specifier: ^0.21.3
+    version: 0.21.3
   tree-sitter-cli:
     specifier: ^0.20.8
     version: 0.20.8
@@ -1261,11 +1261,18 @@ packages:
       web-tree-sitter: 0.20.8
     dev: true
 
-  /tree-sitter-c-sharp@0.20.0:
-    resolution: {integrity: sha512-HOR6fQtghA7hp/LC6fQzzCyRv8TINh/hqYUULYHOYmwsCV73j4PHLYg1536qv/vff1KaRd7Qx3Fs3VLzx1/WIQ==}
+  /tree-sitter-c-sharp@0.21.3:
+    resolution: {integrity: sha512-TVsl5EhmqetO/mhzDPVnMK6TPFnpNMKP0OTNuAQIprshk5Hx672ODRxoIoG5WqvUUlsnBu8J0zmn35hmJqelsA==}
     requiresBuild: true
+    peerDependencies:
+      tree-sitter: ^0.21.0
+      tree_sitter: '*'
+    peerDependenciesMeta:
+      tree_sitter:
+        optional: true
     dependencies:
-      nan: 2.23.0
+      node-addon-api: 8.5.0
+      node-gyp-build: 4.8.4
     dev: true
 
   /tree-sitter-c@0.20.8:
